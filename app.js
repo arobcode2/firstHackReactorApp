@@ -1,10 +1,10 @@
 $(document).ready(function() {
 
 	$('.setData').on('click', function() {
-		let textFieldValue = $('.textField').val();
-		$('.debug').text(textFieldValue);
+		let textAreaValue = $('.textArea').val();
+		$('.debug').text(textAreaValue);
 
-		localStorage.setItem('myFormTextData', textFieldValue);
+		localStorage.setItem('myFormTextData', textAreaValue);
 		$('.textField').val('');
 
 	});
