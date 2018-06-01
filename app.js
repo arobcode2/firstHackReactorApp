@@ -5,8 +5,8 @@ $(document).ready(function() {
 		let nameVal = $('.name').val();
 
 		localStorage.setItem(nameVal, codeSnippetVal);
-		$('.textArea').val('write code snippet here');
-		$('.name').val('give your snippet a name');
+		$('.textArea').val('');
+		$('.name').val('');
 	});
 
 	$('.getData').on('click', function() {
