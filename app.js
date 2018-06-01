@@ -33,4 +33,15 @@ $(document).ready(function() {
 		}
 	});
 
+	$('.removeData').on('click', function() {
+		let codeSnippetVal = $('.textArea').val();
+		let nameVal = $('.name').val();
+
+		for (var i = 0; i < localStorage.length; i++) {
+  		if (localStorage.key(i) === nameVal) {
+  			localStorage.removeItem(localStorage.key(i));
+  		}
+		}
+	});
+
 });
