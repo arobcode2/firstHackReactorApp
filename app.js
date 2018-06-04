@@ -16,7 +16,7 @@ $(document).ready(function() {
 		$('.snippetDisplay').html('');
 
 		for (var i = 0; i < localStorage.length; i++) {
-  		$('.snippetDisplay').append((localStorage.getItem(localStorage.key(i))) + "<br/>");
+  		$('.snippetDisplay').append('<div style="margin: 10px;">' + (localStorage.getItem(localStorage.key(i))) + '<div/>');
 		}
 	});
 
@@ -31,6 +31,8 @@ $(document).ready(function() {
   			$('.snippetDisplay').append((localStorage.getItem(localStorage.key(i))) + "<br/>");
   		}
 		}
+		$('.textArea').val('');
+		$('.name').val('');
 	});
 
 	$('.removeData').on('click', function() {
@@ -42,6 +44,8 @@ $(document).ready(function() {
   			localStorage.removeItem(localStorage.key(i));
   		}
 		}
+		$('.textArea').val('');
+		$('.name').val('');
 	});
 
 });

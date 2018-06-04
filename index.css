@@ -1,0 +1,44 @@
+/*text inputs*/
+
+.textInputs {
+	display: grid;
+	justify-content: center;
+}
+
+.textArea {
+	margin-bottom: 20px;
+}
+
+/*buttons*/
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0 20px 0;
+}
+
+.setData {
+	margin: 10px;
+}
+
+.getData {
+	margin: 10px;
+}
+
+.getDataByName {
+	margin: 10px;
+}
+
+.removeData {
+	margin: 10px;
+}
+
+/*snippet display*/
+
+.snippetDisplay {
+	width: 900px;
+	margin: 0 auto;
+	display: grid;
+	/*justify-content: center;*/
+	border: 1px solid darkgrey;
+}
