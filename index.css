@@ -74,7 +74,7 @@ body {
 	padding-left: 20px;
 	padding-bottom: 20px;
 	font-family: 'Crete Round', serif;
-	color: #42f4d4
+	color: #42f4d4;
 }
 
 /*text inputs*/
@@ -100,15 +100,78 @@ body {
 }
 .setData {
 	margin: 10px;
+	background-color: cadetblue;
+  border: 2px solid cadetblue;
+  border-radius: 12px;
+  color: #42f4d4;
+  padding: 15px 32px;
+  font-family: 'Crete Round', serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.setData:hover {
+	background: white;
 }
 .getData {
 	margin: 10px;
+	background-color: cadetblue;
+  border: 2px solid cadetblue;
+  border-radius: 12px;
+  color: #42f4d4;
+  padding: 15px 32px;
+  font-family: 'Crete Round', serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.getData:hover {
+	background: white;
+	/*border: 2px solid cadetblue;*/
 }
 .getDataByName {
 	margin: 10px;
+	background-color: cadetblue;
+  border: 2px solid cadetblue;
+  border-radius: 12px;
+  color: #42f4d4;
+  padding: 15px 32px;
+  font-family: 'Crete Round', serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.getDataByName:hover {
+	background: white;
+	/*border: 2px solid cadetblue;*/
 }
 .removeData {
 	margin: 10px;
+	background-color: cadetblue;
+  border: 2px solid cadetblue;
+  border-radius: 12px;
+  color: #42f4d4;
+  padding: 15px 32px;
+  font-family: 'Crete Round', serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.removeData:hover {
+	background: white;
+	/*border: 2px solid cadetblue;*/
 }
 .buttonsSection {
 	background: lightcyan;
