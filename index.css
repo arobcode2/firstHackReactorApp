@@ -60,7 +60,7 @@ body {
 	font-family: 'Crete Round', serif;
 	font-size: 48px;
 	word-spacing: 190px;
-	color: #42f4d4
+	color: #42f4d4;
 }
 .color {
 	width: 100px;
@@ -84,12 +84,19 @@ body {
 }
 .textArea {
 	background-image: url("crudLogo2.jpg");
-	margin: 0px 0px 20px;
+	margin: 0 0 20px;
 	height: 293px; 
 	width: 688px;
 }
+.textArea::placeholder {
+	font-family: 'Crete Round', serif;
+	font-size: 18px;
+}
 .name {
 	background-image: url("crudLogo2.jpg");
+}
+.name::placeholder {
+	font-family: 'Crete Round', serif;
 }
 .textFieldsAndAreas {
 	padding: 0 40px 40px 40px;
