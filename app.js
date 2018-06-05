@@ -16,7 +16,7 @@ $(document).ready(function() {
 		$('.snippetDisplay').html('');
 
 		for (var i = 0; i < localStorage.length; i++) {
-  		$('.snippetDisplay').append('<div style="margin: 10px;">' + (localStorage.getItem(localStorage.key(i))) + '<div/>');
+  		$('.snippetDisplay').append('<li>' + '<span>' + (localStorage.getItem(localStorage.key(i))) + '</span>' + '</li>');
 		}
 	});
 
@@ -28,7 +28,7 @@ $(document).ready(function() {
 
 		for (var i = 0; i < localStorage.length; i++) {
   		if (localStorage.key(i) === nameVal) {
-  			$('.snippetDisplay').append((localStorage.getItem(localStorage.key(i))) + "<br/>");
+  			$('.snippetDisplay').append('<li>' + '<span>' + (localStorage.getItem(localStorage.key(i))) + '</span>' + '</li>');
   		}
 		}
 		$('.textArea').val('');

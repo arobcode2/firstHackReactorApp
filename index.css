@@ -182,17 +182,26 @@ body {
 
 /*snippet display*/
 
-.snippetDisplay {
+ul {
 	width: 900px;
 	margin: 0 auto;
 	display: grid;
 	border: 1px solid darkgrey;
 	background-image: url("crudLogo2.jpg");
 	background-repeat: repeat;
-	/*background-attachment: fixed;*/
   background-position: center; 
 }
-
+ul li {
+	color: #42f4d4;
+  list-style-type: disc;
+  margin: 5px;
+  margin-left: 2em;
+ 	font-size: 20px;
+	padding: 5px;
+}
+ul li span {
+	color: black;
+}
 .snippets {
 	background: cadetblue;
 }
