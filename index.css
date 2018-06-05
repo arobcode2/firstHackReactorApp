@@ -57,7 +57,6 @@ body {
 	display: grid;
 	justify-content: center;
 	padding-bottom: 5px;
-	/*padding-left: 150px;*/
 	font-family: 'Crete Round', serif;
 	font-size: 48px;
 	word-spacing: 190px;
@@ -84,7 +83,13 @@ body {
 	justify-content: center;
 }
 .textArea {
-	margin-bottom: 20px;
+	background-image: url("crudLogo2.jpg");
+	margin: 0px 0px 20px;
+	height: 293px; 
+	width: 688px;
+}
+.name {
+	background-image: url("crudLogo2.jpg");
 }
 .textFieldsAndAreas {
 	padding: 0 40px 40px 40px;
@@ -133,7 +138,6 @@ body {
 }
 .getData:hover {
 	background: white;
-	/*border: 2px solid cadetblue;*/
 }
 .getDataByName {
 	margin: 10px;
@@ -152,7 +156,6 @@ body {
 }
 .getDataByName:hover {
 	background: white;
-	/*border: 2px solid cadetblue;*/
 }
 .removeData {
 	margin: 10px;
@@ -171,7 +174,6 @@ body {
 }
 .removeData:hover {
 	background: white;
-	/*border: 2px solid cadetblue;*/
 }
 .buttonsSection {
 	background: lightcyan;
@@ -184,9 +186,11 @@ body {
 	width: 900px;
 	margin: 0 auto;
 	display: grid;
-	/*justify-content: center;*/
 	border: 1px solid darkgrey;
-	background: white;
+	background-image: url("crudLogo2.jpg");
+	background-repeat: repeat;
+	/*background-attachment: fixed;*/
+  background-position: center; 
 }
 
 .snippets {
