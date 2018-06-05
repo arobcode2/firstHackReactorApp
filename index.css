@@ -63,11 +63,6 @@ body {
 	word-spacing: 190px;
 	color: #42f4d4
 }
-#colors {
-  display: grid;
-  grid-template-columns: repeat(13, 100px);
-  justify-content: center;
-}
 .color {
 	width: 100px;
   height: 100px;
