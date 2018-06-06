@@ -7,6 +7,9 @@ $(document).ready(function() {
 		localStorage.setItem(nameVal, codeSnippetVal);
 		$('.textArea').val('');
 		$('.name').val('');
+
+		$('.alert').html('Code Snippet Saved!').removeClass("hide").hide().fadeIn("slow").fadeOut(4000);
+
 	});
 
 	$('.getData').on('click', function() {
@@ -46,6 +49,8 @@ $(document).ready(function() {
 		}
 		$('.textArea').val('');
 		$('.name').val('');
+
+		$('.alert').html('Code Snippet Removed!').removeClass("hide").hide().fadeIn("slow").fadeOut(4000);
 	});
 
 });

@@ -70,10 +70,21 @@ body {
 	display: grid;
 	justify-content: center;
 	word-spacing: 190px;
-	padding-left: 20px;
+	padding-left: 10px;
 	padding-bottom: 20px;
 	font-family: 'Crete Round', serif;
 	color: #42f4d4;
+}
+
+/*alerts*/
+
+.alert {
+	margin: 30px 0 0 0;
+  color: #a9a9a9;
+  background-color: #42f4d4;
+  border-color: #a9a9a9;
+  float: right;
+  width: 30%;
 }
 
 /*text inputs*/
